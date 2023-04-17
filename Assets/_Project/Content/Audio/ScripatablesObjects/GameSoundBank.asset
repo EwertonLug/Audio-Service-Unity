@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0effb477830dec458f661ceb6299075, type: 3}
+  m_Name: GameSoundBank
+  m_EditorClassIdentifier: 
+  _audioMixer: {fileID: 24100000, guid: f39784f9d5db46d4ab2a455f9c5a57df, type: 2}
+  _spatialBlend: 1
+  _minDistance: 1
+  _maxDistance: 80
+  _dopplerLevel: 0
+  _sounds:
+  - Type: 0
+    LocalVolume: 0.5
+    Clip: {fileID: 8300000, guid: 643a1b1e9c857164280bbbb491fcfb7b, type: 3}
+  - Type: 1
+    LocalVolume: 1
+    Clip: {fileID: 8300000, guid: e6a608b944104e34db6dca8bbe90a50f, type: 3}
+  - Type: 2
+    LocalVolume: 1
+    Clip: {fileID: 8300000, guid: 33554ba8aa19f234a9c17d129ed81d32, type: 3}
+  _states:
+  - Type: 1
+    StateData: {fileID: 11400000, guid: 77a0b0c5911dc724a8c08531db61548c, type: 2}
+  - Type: 2
+    StateData: {fileID: 11400000, guid: 1bf47c68f39e7594bba0d838cd3d8028, type: 2}
+  - Type: 3
+    StateData: {fileID: 11400000, guid: abb311934165c154f8ac4bf2a639b54d, type: 2}
+  _effects:
+  - Type: 0
+    EffectData: {fileID: 11400000, guid: 5366115b4f833b8418e0bd9399865eea, type: 2}
+  _defaultPoolerCount: 15
