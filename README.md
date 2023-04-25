@@ -8,4 +8,8 @@ https://assetstore.unity.com/packages/tools/utilities/naughtyattributes-129996
 https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676
 
 ## Architecture
+The general structure of the project is done using ScriptablesObjects.
+
+**SoundBankData** - Used to store information such as: sounds, effects, states, etc. This architecture allows us to create several Sound Banks for different themes or parts of a game. For example. We can have a Sound Bank for each level of the game, with that we have the benefit of not having to load all the sounds of the game in the memory at once, in addition to the organization of the project itself.
+
 ## How To use
